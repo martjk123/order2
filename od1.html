@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="od1.css">
+</head>
+
+
+<body id="body">
+
+
+
+</div>
+
+   <div class="container">
+    <div>
+        <h1 id="title">Pearl Cafe</h1>
+    </div>
+    <div onclick="receipt()">
+            <img src="icons8-receipt-64.png" alt="" id="image" onclick="showreceipt1()">
+    </div>
+   </div>
+
+   <hr id="hr1">
+
+
+   <h3 id="best">Best Seller</h3>
+   
+   <div class="container3">
+    <div>
+        <img src="appletea.png" alt="" id="appleTea">
+    </div>
+
+    <div>
+        <img src="lemontea.png" alt="" id="lemonTea">
+    </div>
+
+    <div>
+        <img src="apple2tea.png" alt="" id="apple2tea" >
+    </div>
+
+    
+
+   </div>
+  
+
+
+<div class="container4">
+    
+  
+
+
+   <div class="main">
+    
+
+    <div class="menuContainer">
+        <div class="container2">
+            <div id="ctitle">Menu</div>
+            <!-- <div id="mytitle">Milktea</div> -->
+           </div>
+        <div>
+            <img src="appletea.png" alt="" class="menu" onclick="clickpine()">
+        </div>
+        <div id="name">
+            Pineaple Tea
+            <br>Cold Drink
+        </div>
+        <div id="applePrice">
+            $10
+        </div>
+    </div>
+
+
+    <div class="menuContainer">
+        <div>
+            <img src="lemontea.png" alt="" class="menu" onclick="clicklemon()">
+        </div>
+        <div id="name">
+            Lemon Tea
+            <br>Cold Drink
+        </div>
+        <div id="lemonprice">
+            $5
+        </div>
+    </div>
+
+    <div class="menuContainer">
+        <div>
+            <img src="apple2tea.png" alt="" class="menu" onclick="clickapple()">
+        </div>
+        <div id="name">
+            Apple Tea
+            <br>Cold Drink
+        </div>
+        <div id="apple15">
+            $15
+        </div>
+    </div>
+
+    <div class="menuContainer">
+        <div>
+            <img src="choco1.png" alt="" class="menu" onclick="clickchoco()">
+        </div>
+        <div id="name">
+            ChocoFee
+            <br>Hot Drink
+        </div>
+        <div id="price7">
+            $7
+        </div>
+    </div>
+
+
+    <div class="menuContainer">
+        <div>
+            <img src="choco2.png" alt="" class="menu" onclick="clickchoco2()">
+        </div>
+        <div id="name">
+            Caramel Coffee
+            <br>Cold Drink
+        </div>
+        <div id="price13">
+            $13
+        </div>
+    </div>
+
+
+    <div class="menuContainer">
+        <div>
+            <img src="milkcoffee.png" alt="" class="menu" onclick="clickmilkcoffee()">
+        </div>
+        <div id="name">
+            Milk Coffe
+            <br>Cold Drink
+        </div>
+        <div id="price14">
+            $9
+        </div>
+    </div>
+
+    
+    <div class="menuContainer">
+        <div>
+            <img src="bananalemon.png" alt="" class="menu" onclick="clickbanana()">
+        </div>
+        <div id="name">
+            Banana Tea 
+            <br>Cold Drink
+        </div>
+        <div id="price15">
+            $9
+        </div>
+    </div>
+
+    
+    <div class="menuContainer">
+        <div>
+            <img src="grapetea.png" alt="" class="menu" onclick="clickgrape()">
+        </div>
+        <div id="name">
+            Grape Tea
+            <br>Hot Drink
+        </div>
+        <div id="price16">
+            $8
+        </div>
+    </div>
+
+
+    
+    <div class="menuContainer">
+        <div>
+            <img src="watermelon.png" alt="" class="menu" onclick="clickwatermelon()">
+        </div>
+        <div id="name">
+            Watermelon Tea
+            <br>Cold Drink
+        </div>
+        <div id="price17">
+            $9
+        </div>
+    </div>
+
+   </div>
+
+   
+   <div class="menuContainer">
+    <div>
+        <img src="icecreamcoffee.png" alt="" class="menu" onclick="clickicecoffee()">
+    </div>
+    <div id="name">
+        Ice Cream Coffee
+        <br>Cold Drink
+    </div>
+    <div id="price18">
+        $12
+    </div>
+</div>
+    
+</div>
+
+<div id="bdesign2"></div>
+
+<div class="viewOrder">
+    <div><img src="appletea.png" alt="" id="viewapple1"></div>
+
+    <div id="blurlabel"> 
+            <h1 id="label1">Pineaple Tea</h1>
+            <h1 id="labelp2">with Strawberries</h1>
+        </div>
+        </div>
+
+   
+
+    <div class="viewOrder1">
+        <div id="info1">
+            Savor the sweet escape of Pineapple Tea – a tropical delight in every sip! 🍍🍵 #TropicalBliss
+        </div>
+
+     
+
+
+        <div class="quantityClass">
+            <div>
+                <button onclick="resetorder1()" id="reset">Reset</button>
+               </div>
+            <!-- <div id="quantityB">Quantity: </div> -->
+            <div id="quantitynum" >1</div>
+            <div><button  id="addB" onclick="addorder1()">+</button></div>
+            <div><button  id="minusB" onclick="reduceorder1()">-</button></div>
+        </div>
+
+       <div class="bottomBuy">
+       <div class="priceb">
+        <div id="p10"><span id="currency">$</span>10 |</div> 
+        <div><img src="icons8-cart-30.png" alt="" id="cartimg" ></div>
+       </div>
+        <div>
+            <button id="buyNow" onclick="addToReceipt(1)">Add Now</button>
+        </div>
+       </div>
+       <div onclick="receipt()">
+        <img src="icons8-receipt-64.png" alt="" id="image" onclick="showreceipt1()">
+</div>
+    </div>
+
+
+    <div class="viewOrderc2">
+        <div><img src="lemontea.png" alt="" id="viewapple1"></div>
+    
+        <div id="blurlabel"> 
+                <h1 id="label1">Lemon Tea</h1>
+                <h1 id="labelp2">with lemon</h1>
+            </div>
+            </div>
+    
+        <div class="viewOrder1c2">
+            <div id="info2">
+                "Embrace the refreshing zest of lemon tea, where citrus tang meets soothing warmth in every sip. Perfect for brightening your day, one cup at a time." 🍋☕
+            </div>
+    
+            <div class="quantityClass">
+                <div>
+                <button onclick="resetorder2()" id="reset">Reset</button>
+               </div>
+            
+                <div id="quantitynum2">1</div>
+                <div><button  id="addB" onclick="addorder1()">+</button></div>
+                <div><button  id="minusB"  onclick="reduceorder1()">-</button></div>
+            </div>
+    
+           <div class="bottomBuy">
+            
+<div class="priceb">
+        <div id="p10"><span id="currency">$</span>5 |</div> 
+        <div><img src="icons8-cart-30.png" alt="" id="cartimg"></div>
+       </div>            <div>
+                <button id="buyNow" onclick="addToReceipt(2)">Add Now</button>
+            </div>
+           </div>
+           <div onclick="receipt()">
+            <img src="icons8-receipt-64.png" alt="" id="image" onclick="showreceipt1()">
+    </div>
+        </div>
+    
+
+    <div id="back" onclick="backb()">Back</div>
+</div>
+
+
+<div class="viewOrderc3">
+    <div><img src="apple2tea.png" alt="" id="viewapple1"></div>
+
+    <div id="blurlabel"> 
+            <h1 id="label1">Apple Tea</h1>
+            <h1 id="labelp2">with apple</h1>
+        </div>
+        </div>
+
+    <div class="viewOrder1c3">
+        <div id="info3">
+            "Savor the crisp sweetness of apple tea, a delightful blend that captures the essence of orchard-fresh apples in every comforting brew. Enjoy a taste of autumn all year round!" 🍎☕
+        </div>
+
+        <div class="quantityClass">
+            <div>
+                <button onclick="resetorder3()" id="reset">Reset</button>
+               </div>
+        
+            <div id="quantitynum3">1</div>
+            <div><button  id="addB" onclick="addorder1()">+</button></div>
+            <div><button  id="minusB"  onclick="reduceorder3()">-</button></div>
+        </div>
+
+       <div class="bottomBuy">
+        <div class="priceb">
+        <div id="p10"><span id="currency">$</span>15 |</div> 
+        <div><img src="icons8-cart-30.png" alt="" id="cartimg"></div>
+       </div>
+        <div>
+            <button id="buyNow" onclick="addToReceipt(3)">Add Now</button>
+        </div>
+       </div>
+       <div onclick="receipt()">
+        <img src="icons8-receipt-64.png" alt="" id="image" onclick="showreceipt1()">
+</div>
+    </div>
+
+<div id="back3" onclick="backb3()">Back</div>
+</div>
+
+
+
+<div class="viewOrderc4">
+    <div><img src="choco1.png" alt="" id="viewapple1"></div>
+
+    <div id="blurlabel"> 
+            <h1 id="label1">ChocoFee</h1>
+            <h1 id="labelp2"> Hot Chocolate Coffee</h1>
+        </div>
+        </div>
+
+    <div class="viewOrder1c4">
+        <div id="info4">
+            A delightful blend of cocoa richness in every sip. Perfect for a comforting treat anytime. ☕🍫
+        </div>
+
+        <div class="quantityClass">
+            <div>
+                <button onclick="resetorder4()" id="reset">Reset</button>
+               </div>
+        
+            <div id="quantitynum4">1</div>
+            <div><button  id="addB" onclick="addorder1()">+</button></div>
+            <div><button  id="minusB"  onclick="reduceorder4()">-</button></div>
+        </div>
+
+       <div class="bottomBuy">
+        <div class="priceb">
+        <div id="p10"><span id="currency">$</span>7 |</div> 
+        <div><img src="icons8-cart-30.png" alt="" id="cartimg"></div>
+       </div>        <div>
+            <button id="buyNow" onclick="addToReceipt(4)">Add Now</button>
+        </div>
+       </div>
+       <div onclick="receipt()">
+        <img src="icons8-receipt-64.png" alt="" id="image" onclick="showreceipt1()">
+</div>
+    </div>
+
+<div id="back4" onclick="backb4()">Back</div>
+</div>
+
+
+<div class="viewOrderc5">
+    <div><img src="choco2.png" alt="" id="viewapple1"></div>
+
+    <div id="blurlabel"> 
+            <h1 id="label1">Caramel Coffee</h1>
+            <h1 id="labelp2"> Cold caramel coffee</h1>
+        </div>
+        </div>
+
+    <div class="viewOrder1c5">
+        <div id="info5">
+            Enjoy the smooth sweetness of caramel tea—a comforting indulgence in every sip. ☕🍂
+        </div>
+
+        <div class="quantityClass">
+            <div>
+                <button onclick="resetorder5()" id="reset">Reset</button>
+               </div>
+        
+            <div id="quantitynum5">1</div>
+            <div><button  id="addB" onclick="addorder1()">+</button></div>
+            <div><button  id="minusB"  onclick="reduceorder5()">-</button></div>
+        </div>
+
+       <div class="bottomBuy">
+        <div class="priceb">
+        <div id="p10"><span id="currency">$</span>13 |</div> 
+        <div><img src="icons8-cart-30.png" alt="" id="cartimg"></div>
+       </div>
+        <div>
+            <button id="buyNow" onclick="addToReceipt(5)">Add Now</button>
+        </div>
+       </div>
+       <div onclick="receipt()">
+        <img src="icons8-receipt-64.png" alt="" id="image" onclick="showreceipt1()">
+</div>
+    </div>
+
+<div id="back5" onclick="backb5()">Back</div>
+</div>
+
+
+<div class="viewOrderc6">
+    <div><img src="milkcoffee.png" alt="" id="viewapple1"></div>
+
+    <div id="blurlabel"> 
+            <h1 id="label1">Milk Coffee</h1>
+            <h1 id="labelp2">Hot Coffee with milk</h1>
+        </div>
+        </div>
+
+    <div class="viewOrder1c6">
+        <div id="info6">
+            Milk coffee, a creamy, comforting blend of rich coffee and smooth milk. The perfect pick-me-up for any time of day! ☕️🥛
+        </div>
+
+        <div class="quantityClass">
+            <div>
+                <button onclick="resetorder6()" id="reset">Reset</button>
+               </div>
+        
+            <div id="quantitynum6">1</div>
+            <div><button  id="addB" onclick="addorder1()">+</button></div>
+            <div><button  id="minusB"  onclick="reduceorder6()">-</button></div>
+        </div>
+
+       <div class="bottomBuy">
+        <div class="priceb">
+        <div id="p10"><span id="currency">$</span>9 |</div> 
+        <div><img src="icons8-cart-30.png" alt="" id="cartimg"></div>
+       </div>
+        <div>
+            <button id="buyNow" onclick="addToReceipt(6)">Add Now</button>
+        </div>
+       </div>
+       <div onclick="receipt()">
+        <img src="icons8-receipt-64.png" alt="" id="image" onclick="showreceipt1()">
+</div>
+    </div>
+
+<div id="back6" onclick="backb6()">Back</div>
+</div>
+
+
+
+<div class="viewOrderc7">
+    <div><img src="bananalemon.png" alt="" id="viewapple1"></div>
+
+    <div id="blurlabel"> 
+            <h1 id="label1">Banana Tea</h1>
+            <h1 id="labelp2"> Cold banana tea with lemon</h1>
+        </div>
+        </div>
+
+    <div class="viewOrder1c7">
+        <div id="info7">
+            "Banana tea a cozy sip of relaxation and natural sweetness. Perfect for unwinding after a long day! 🍌☕️"
+        </div>
+
+        <div class="quantityClass">
+            <div>
+                <button onclick="resetorder7()" id="reset">Reset</button>
+               </div>
+        
+            <div id="quantitynum7">1</div>
+            <div><button  id="addB" onclick="addorder1()">+</button></div>
+            <div><button  id="minusB"  onclick="reduceorder7()">-</button></div>
+        </div>
+
+       <div class="bottomBuy">
+        <div class="priceb">
+        <div id="p10"><span id="currency">$</span>9 |</div> 
+        <div><img src="icons8-cart-30.png" alt="" id="cartimg"></div>
+       </div>        <div>
+            <button id="buyNow" onclick="addToReceipt(7)">Add Now</button>
+        </div>
+       </div>
+       <div onclick="receipt()">
+        <img src="icons8-receipt-64.png" alt="" id="image" onclick="showreceipt1()">
+</div>
+    </div>
+
+<div id="back7" onclick="backb7()">Back</div>
+</div>
+
+<div class="viewOrderc8">
+    <div><img src="grapetea.png" alt="" id="viewapple1"></div>
+
+    <div id="blurlabel"> 
+            <h1 id="label1">Grape Tea</h1>
+            <h1 id="labelp2"> Hot grape tea</h1>
+        </div>
+        </div>
+
+    <div class="viewOrder1c8">
+        <div id="info8">
+            Grapes Tea nature's juicy little gems bursting with flavor! 🍇
+        </div>
+
+        <div class="quantityClass">
+            <div>
+                <button onclick="resetorder8()" id="reset">Reset</button>
+               </div>
+        
+            <div id="quantitynum8">1</div>
+            <div><button  id="addB" onclick="addorder1()">+</button></div>
+            <div><button  id="minusB"  onclick="reduceorder8()">-</button></div>
+        </div>
+
+       <div class="bottomBuy">
+        <div class="priceb">
+        <div id="p10"><span id="currency">$</span>8 |</div> 
+        <div><img src="icons8-cart-30.png" alt="" id="cartimg"></div>
+       </div>        <div>
+            <button id="buyNow" onclick="addToReceipt(8)">Add Now</button>
+        </div>
+       </div>
+       <div onclick="receipt()">
+        <img src="icons8-receipt-64.png" alt="" id="image" onclick="showreceipt1()">
+</div>
+    </div>
+
+<div id="back8" onclick="backb8()">Back</div>
+</div>
+
+
+<div class="viewOrderc9">
+    <div><img src="watermelon.png" alt="" id="viewapple1"></div>
+
+    <div id="blurlabel"> 
+            <h1 id="label1">Watermelon Tea</h1>
+            <h1 id="labelp2"> Cold watermelon tea</h1>
+        </div>
+        </div>
+
+    <div class="viewOrder1c9">
+        <div id="info9">
+            Watermelon Tea, the ultimate summer treat, refreshing and sweet! 🍉🌞
+        </div>
+
+        <div class="quantityClass">
+            <div>
+                <button onclick="resetorder9()" id="reset">Reset</button>
+               </div>
+        
+            <div id="quantitynum9">1</div>
+            <div><button  id="addB" onclick="addorder1()">+</button></div>
+            <div><button  id="minusB"  onclick="reduceorder9()">-</button></div>
+        </div>
+
+       <div class="bottomBuy">
+        <div class="priceb">
+        <div id="p10"><span id="currency">$</span>9 |</div> 
+        <div><img src="icons8-cart-30.png" alt="" id="cartimg"></div>
+       </div>        <div>
+            <button id="buyNow" onclick="addToReceipt(9)">Add Now</button>
+        </div>
+       </div>
+       <div onclick="receipt()">
+        <img src="icons8-receipt-64.png" alt="" id="image" onclick="showreceipt1()">
+</div>
+    </div>
+
+<div id="back9" onclick="backb9()">Back</div>
+</div>
+
+
+<div class="viewOrderc10">
+    <div><img src="icecreamcoffee.png" alt="" id="viewapple1"></div>
+
+    <div id="blurlabel"> 
+            <h1 id="label1">Ice Cream Tea</h1>
+            <h1 id="labelp2"> Cold ice cream tea</h1>
+        </div>
+        </div>
+
+    <div class="viewOrder1c10">
+        <div id="info10">
+            Ice cream tea, a delightful fusion of creamy indulgence and comforting warmth. Perfect for a sweet escape any time of day! 🍦☕️
+        </div>
+
+  
+
+        <div class="quantityClass">
+            <div>
+                <button onclick="resetorder10()" id="reset">Reset</button>
+               </div>
+            
+        
+            <div id="quantitynum10">1</div>
+            <div><button  id="addB" onclick="addorder1()">+</button></div>
+            <div><button  id="minusB"  onclick="reduceorder10()">-</button></div>
+        </div>
+
+       <div class="bottomBuy">
+        <div class="priceb">
+        <div id="p10"><span id="currency">$</span>12 |</div> 
+        <div><img src="icons8-cart-30.png" alt="" id="cartimg"></div>
+       </div>
+        <div>
+            <button id="buyNow" onclick="addToReceipt(10)">Add Now</button>
+        </div>
+       </div>
+       <div onclick="receipt()">
+        <img src="icons8-receipt-64.png" alt="" id="image" onclick="showreceipt1()">
+</div>
+    </div>
+
+<div id="back10" onclick="backb10()">Back</div>
+</div>
+
+<!-- ___________________________________ -->
+
+<div class="containershoworder">
+
+    
+    <div class="containerReceipt">
+        <div id="design1"></div>
+    </div>
+    
+    
+    
+    <div class="receipt-container">
+        <!-- kani -->
+
+            <button id="receiptback" onclick="receiptback()">Back</button>
+
+        <h2 id="receiptTitle">Receipt</h2>
+        <table id="receipt-table">
+            <thead>
+                <tr>
+                    <th id="item1">Item</th>
+                    <th id="quantity1">Quantity</th>
+                    <th id="price1">Price</th>
+                    <th style="color:#f0dfbc">--</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Total</td>
+                    <td id="total-price">0.00</td>
+                </tr>
+            </tfoot>
+        </table>
+   <!-- <div class="buttonsbottom"> -->
+    <div class="buttonsC">
+        <button class="print-receipt" onclick="printReceipt()" id="pReceipt">Print Receipt</button>
+        <button class="print-receipt" onclick="processRefund()" id="pRefund">Process Refund</button>
+        <button class="print-receipt" onclick="applyVoucher()" id="pVoucher">Apply Voucher</button>
+        <button class="print-receipt" onclick="applyDiscount()" id="pDiscount">Apply Discount</button>
+        <button class="sortByPrice" onclick="sortByPrice()">Sort by price</button>
+    </div>
+   </div>
+    </div>
+
+
+ <div>
+    <div class="showApplyV">
+        <h2 id="labelV">Apply Voucher</h2>
+        <!-- <label for="voucher-code" id="enterc">Enter Code:</label> -->
+        <input type="text" id="voucher-code" placeholder="Enter Code">
+        <button onclick="submitVoucher()" id="bapply">Apply Voucher</button>
+      </div>
+
+
+      <div class="showDiscountb">
+      <h2 id="discountTitle">Apply Discount</h2>
+      <!-- <label for="discount-type" id="labeltype">Discount Type:</label> -->
+      <select id="discount-type">
+        <option value="student">Student (10%)</option>
+        <option value="pwd">PWD (20%)</option>
+        <option value="senior">Senior (15%)</option>
+      </select>
+      <button onclick="submitDiscount()" id="discountb">Apply Discount</button>
+      </div>
+
+
+      <div class="showRefundb">
+        <h2 id="refundTitle">Process Refund</h2>
+        <!-- <label for="refund-order-number">Order Number:</label> -->
+        <input type="number" id="refund-order-number" placeholder="Order Number">
+        <!-- <label for="refund-amount">Refund Amount:</label> -->
+        <input type="number" id="refund-amount" placeholder="Refund Amount"><br>
+        <button onclick="submitRefund()" id="refundb">Submit Refund</button>
+      </div>
+    
+
+ </div>
+<!--  
+<div class="receiptShow">
+    <div id="receiptShow1"></div>
+</div> -->
+
+   <script src="od1.js">
+   
+   </script>
+</body>
+</html>
